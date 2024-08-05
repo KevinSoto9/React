@@ -61,7 +61,7 @@ function App() {
       <h1>Tic Tac Toe</h1>
       <button onClick={resetGame}>Reset the game</button>
       <section className='game'>
-        <Board board={board} updateBoard={updateBoard} />
+        <Board board={board} updateBoard={updateBoard} >{updateBoard}</Board>
       </section>
 
       <section className='turn'>
