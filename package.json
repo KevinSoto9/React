@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "standart": "^6.1.0"
+  },
+  "esLintConfig":{
+    "extends": "./node_modules/standart/eslintrcs.json"
+  }
 }
